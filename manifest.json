@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Extensão Pensao Pet",
+  "version": "1.0",
+  "description": "Substitui imagens da web pelas minhas fotos.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
